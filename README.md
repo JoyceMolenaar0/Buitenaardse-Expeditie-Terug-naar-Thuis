@@ -9,5 +9,6 @@ De animator controller Een particle system Prefabs de Input manager Unity Events
 
 
 ### Dingen waar we tegenaan liepen:
-Het respawnen van de alien als hij valt in een gat of als hij een tak aanraakt.
-Het maken van de eerste scene, zorgen dat de ufo smooth te zien is en de ufo viel steeds naar benenden.
+Yati had last van :Het respawnen van de alien als hij valt in een gat of als hij een tak aanraakt. Soms werkte het wel en andere keren niet, dit heeft zij opgelost door filmpjes op te zoeken.
+
+Joyce had last van:Het maken van de eerste scene, zorgen dat de ufo smooth te zien is en de ufo viel steeds naar benenden, dit heeft zij opgelost door de docenten te vragen en filmpjes te bekijken.
