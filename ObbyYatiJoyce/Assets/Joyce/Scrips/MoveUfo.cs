@@ -19,6 +19,7 @@ public class MoveUfo : MonoBehaviour
     [SerializeField] GameObject KapotteUfo;
     [SerializeField] CameraFollow cameraFollow;
     [SerializeField] GameObject Explosion;
+    [SerializeField] GameObject UfoExplosePosition;
     [SerializeField] float speed = 1.0f;
 
     public float rotationSpeed = 20.0f;
@@ -36,6 +37,7 @@ public class MoveUfo : MonoBehaviour
         Targets.Add(Pos4);
         Targets.Add(PosEind);
         Explosion.SetActive(false);
+        KapotteUfo.SetActive(false);
         
 
         transform.position = Targets[CurrentTarget].transform.position;
@@ -54,14 +56,18 @@ public class MoveUfo : MonoBehaviour
             }
             else
             {
-                KapotteUfo.transform.position = Ufo.transform.position;
-                Explosion.transform.position = KapotteUfo.transform.position;
+                
 
                 Ufo.SetActive(false);
                 Explosion.SetActive(true);
                 KapotteUfo.SetActive(true);
 
-                cameraFollow.target = KapotteUfo.transform;
+
+                KapotteUfo.transform.position = UfoExplosePosition.transform.position;
+                
+                Explosion.transform.position = PosEind.transform.position;
+
+                //cameraFollow.target = KapotteUfo.transform;
                 return;
             }
         }
@@ -70,5 +76,6 @@ public class MoveUfo : MonoBehaviour
         Vector3 direction = (Targets[CurrentTarget].transform.position - transform.position).normalized;
         transform.position += direction * speed * Time.deltaTime;
         transform.forward = Vector3.Lerp(transform.forward, direction, 0.02f);
+        
     }
 }
