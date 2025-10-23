@@ -1,14 +1,7 @@
-# M3BO
-## Titel : Buitenaardse Expeditie: Terug naar Thuis
-IDEE: Je bent een kleine alien die gecrasht is op aarde en je ship is in stukken gebroken, je moet zoeken naar alle stukjes die kwijt zijn, dit ga je doen door obstakels te vermijden en uiteindelijk terug naar huis te komen.
-Nodig voor beoordeling:
-Lopen of/en rennen, lekker springen (geanimeerd en niet "floaty"), Stukjes oppakken. Respawnen.
-
-### Jullie hebben aantoonbaar de volgende Unity systemen gebruikt:
-De animator controller Een particle system Prefabs de Input manager Unity Events (voor afspelen geluiden).
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/4f3f1efb-92b9-4e6e-9d34-702da0dbf004" />
 
 
-### Dingen waar we tegenaan liepen:
-Yati had last van :Het respawnen van de alien als hij valt in een gat of als hij een tak aanraakt. Soms werkte het wel en andere keren niet, dit heeft zij opgelost door filmpjes op te zoeken.
+In Buitenaardse Expeditie: Terug naar Thuis speel je als een kleine alien die per ongeluk is neergestort op Aarde. Je ruimteschip is in stukken gebroken en verspreid geraakt over mysterieuze gebieden.
+Jouw missie: verzamel alle onderdelen, ontwijk obstakels en vind de weg terug naar je thuisplaneet!
 
-Joyce had last van:Het maken van de eerste scene, zorgen dat de ufo smooth te zien is en de ufo viel steeds naar benenden, dit heeft zij opgelost door de docenten te vragen en filmpjes te bekijken.
+
